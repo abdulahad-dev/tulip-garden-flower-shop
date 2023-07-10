@@ -1,0 +1,55 @@
+/**************************************
+        Common Shared Styles 
+ **************************************/
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* header related styles  */
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+/* Banner related styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 135px;
+    padding-top: 35px;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner-flower {
+    width: 490px;
+    height: 660px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.banner-descriptoin {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
