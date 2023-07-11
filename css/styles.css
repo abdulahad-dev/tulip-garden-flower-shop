@@ -18,6 +18,12 @@ body {
     font-weight: 700;
 }
 
+.section-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 /* header related styles  */
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -52,6 +58,14 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 50px;
+}
+
+/* Main section Styles */
+
+/* Featured flowers styles  */
+
+.featured-flowers {
+    display: flex;
 }
 
 /* Hot deal related styles */
@@ -121,4 +135,65 @@ header {
 .insta-flower {
     width: 295px;
     height: 325px;
+}
+
+/* Latest Deals related Styles  */
+.latest-deals {
+    margin: 0 135px;
+}
+
+.latest-deals-content {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    padding: 100px 0;
+}
+
+.latest-deals-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.latest-deals-coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.Subscribe-form {
+    text-align: center;
+}
+
+.Subscribe-mail {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 22px;
+    border: 0;
+    width: 500px;
+    margin-right: 10px;
+}
+
+/* footer related styles  */
+
+footer {
+    text-align: center;
+    background-color: #111010;
+    padding: 128px 0;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer .shop {
+    color: #fff;
 }
