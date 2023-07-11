@@ -63,10 +63,31 @@ header {
 /* Main section Styles */
 
 /* Featured flowers styles  */
-
 .featured-flowers {
-    display: flex;
+    margin: 0 135px;
 }
+
+.featured-flowers-gallery {
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-evenly; */
+}
+
+.featured-flower-item {
+    width: 33.33%;
+}
+
+.featured-flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
 
 /* Hot deal related styles */
 .hot-deal {
@@ -139,7 +160,7 @@ header {
 
 /* Latest Deals related Styles  */
 .latest-deals {
-    margin: 0 135px;
+    margin: 0 135px 128px 135px;
 }
 
 .latest-deals-content {
@@ -185,15 +206,30 @@ header {
 footer {
     text-align: center;
     background-color: #111010;
-    padding: 128px 0;
 }
 
 .footer-title {
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
+    padding-top: 90px;
 }
 
 footer .shop {
     color: #fff;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 625px;
+    margin: auto;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    padding-top: 30px;
 }
