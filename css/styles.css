@@ -20,7 +20,8 @@ body {
 
 .section-title {
     color: #272727;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -156,6 +157,42 @@ header {
 .insta-flower {
     width: 295px;
     height: 325px;
+}
+
+/* flower-experts related styles  */
+.flower-experts {
+    margin: 0 135px;
+    text-align: center;
+}
+
+.flower-experts-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.experts-brief {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    max-width: 594px;
+    margin: auto;
+    padding: 0 0 48px 0;
+}
+
+.flower-experts-content img {
+    width: 290px;
+    border-radius: 50%;
+}
+
+.flower-experts-content h4 {
+    font-size: 20px;
+    color: #E55473;
+    margin-bottom: 0;
+}
+
+.flower-experts-content p {
+    color: #8c9091;
+    margin-top: 8px;
 }
 
 /* Latest Deals related Styles  */
